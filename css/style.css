@@ -1,0 +1,241 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*header img  {
+width: 20%;
+height: 20%;
+}*/
+.box-model{
+    border: 5px;
+    padding: 40px 30px;
+    margin: 40px;
+    
+    }
+header img{
+    width: 40%;
+    height: 25%;
+    margin: 2%;
+    
+    }
+
+    header{
+        /*background-color:#F8D4CD;*/
+        text-align: center;
+        margin: 2%;
+        position: sticky;
+        justify-content: space-between;}
+        /*background-color: #F6F6E9;*/
+         /*background-color: #f1be48 ;*/
+        /* color: #B59E49;
+         background-color:#B59E49 ;
+        }*/
+         
+       /* background-color:#FEC7B8 ;*/
+
+
+       .sec-1{
+   
+        padding: 1%;
+            justify-content:left;
+            
+            grid-template-columns:400px 400px;
+             grid-template-rows:200px 200px;
+            display: flex;
+            margin: 30px;
+            gap: 20px;
+            
+            }
+
+            .texto{
+                /*margin: 0px 25px;
+                /*font-family: "Roboto", sans-serif;*/
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                text-align: start;
+             margin: 10px 25px;
+              margin: 30px;
+
+            
+
+
+
+
+
+
+            }
+
+         .uno{
+            text-align: center;
+            margin: 60px;
+         }
+
+         .uno-p1{
+          text-align: center;
+
+
+         }
+
+
+
+         .contenedor{
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+         
+           }
+        .contenedor a{
+            font-size: 30px;
+           }
+        .facebook{
+            color: blue;
+         }
+
+         .instagram{
+            color: palevioletred;
+         }
+
+         .whatsapp{
+            color: green;
+         }
+
+        .img-dos{
+         width: 400px;
+             height: 400px;
+             display: flex;
+             flex-direction:row;
+              gap: 10px;
+             -ms-flex-align: ;
+           
+        }
+
+        form{
+            width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        
+        
+        }
+        form input{
+        margin-bottom: 15px;
+        
+        }
+        input:focus{
+        background-color: red;
+        padding: 3px;
+        
+        
+        }
+        
+        
+        
+        
+        form button{
+        width: 30%;
+        background-color: blue;
+        color: white;
+        border: 0px;
+        padding: 15px;
+        
+        }
+         
+        h1{
+        background-color: orange;
+
+
+        }
+        h2{
+         background-color: orange;
+                     
+        }
+        h3{
+            background-color: orange;
+        }
+        
+        .img-collares{
+
+            display: flex;
+            flex-direction: row;
+            padding: 100px;
+            gap: 20px;
+            
+        
+            
+            
+           
+           
+
+
+        }
+        
+        .img-aros{
+            display: flex;
+            flex-direction: row;
+            padding: 100px;
+            gap: 15px;
+           
+
+
+        }
+
+        section.formulario{
+          text-align: center;
+         margin: 50px;
+         
+        
+
+        }
+        .buton{
+            width: 100px;
+            border-bottom: 10px;
+
+    
+        }
+
+        
+
+
+
+       /* mq tablet*/
+       
+
+
+
+    @media(min-width:768px){
+        header {
+            justify-content: space-between; 
+            padding: 10px 20px;
+        }
+    
+        
+        header h1 {
+            font-size: 2rem; 
+        }
+    
+    }
+   
+
+
+
+/*mq-desktop*/
+@media screen and (min-width:1024px) {
+    header {
+        background-color: #F8D4CD; 
+        justify-content: space-between; 
+        padding: 15px 30px; 
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header nav {
+        display: flex; 
+        gap: 15px;
+    }
+    
+       
+    }

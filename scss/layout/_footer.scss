@@ -1,0 +1,30 @@
+.uno {
+    text-align: center;
+    margin: 60px;
+  
+    .uno-p1 {
+      text-align: center;
+    }
+  }
+  
+  .contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+     }
+  .contenedor a{
+      font-size: 30px;
+     }
+  .facebook{
+      color: blue;
+   }
+
+   .instagram{
+      color: palevioletred;
+   }
+
+   .whatsapp{
+      color: green;
+   }
+   

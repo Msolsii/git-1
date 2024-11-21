@@ -34,3 +34,12 @@ header nav {
     height: auto; 
     margin: 2%;
 }
+
+.uno {
+    animation-name: cambiarcolorletras;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    
+    }

@@ -1,0 +1,22 @@
+@keyframes cambiarcolorletras  {
+    0%{
+        color:white;
+    }
+
+    50%{
+        color:blue;
+
+    }
+    100%{
+        color:red
+    }
+}
+
+.uno{
+animation-name: cambiarcolorletras;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 5s;
+animation-delay: 1s;
+
+}

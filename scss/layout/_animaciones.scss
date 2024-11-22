@@ -10,13 +10,18 @@
     100%{
         color:red
     }
-    uno{
-        animation-name: cambiarcolorletras;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-        animation-duration: 3s;
-        animation-delay: 1s;
-        
-        }
-}
+    
+      
+      }
 
+      uno {
+        
+        @extend .animate__animated;
+        @extend .animate__bounce;
+        animation: bounce 2s infinite;
+      
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+      }
